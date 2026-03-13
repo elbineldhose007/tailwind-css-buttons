@@ -23,6 +23,8 @@ A collection of modern, responsive, and customizable button components built usi
 * **Font Awesome Icons**
 ![img](./chrome-capture-2026-03-13.png)
 
+[link](https://elbineldhose007.github.io/tailwind-css-buttons/)
+
 
 ---
 
