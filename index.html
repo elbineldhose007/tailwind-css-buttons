@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Tailwind Buttons</title>
+</head>
+<body>
+    <div class="min-h-screen bg-black flex flex-col items-center justify-center gap-8 p-6">
+    <div class="flex gap-6">
+    <button class="px-6 py-2 bg-pink-700 hover:bg-blue-700 text-white">sign up</button>
+    <button class="px-6 py-2 border-2 border-pink-600 text-pink-600 hover:bg-pink-900 hover:text-white flex items-center gap-2">link
+        <i class="fa-solid fa-link"></i>
+    </button>
+    <button class="px-6 py-2 bg-yellow-500 text-white hover:bg-pink-900 flex item-center gap-2 rounded-md">
+        Login
+        <i class="fa-solid fa-link"></i>
+    </button>
+    <button class="px-6 py-2 border-2 border-yellow-400  text-yellow-500 hover:text-white flex items-center gap-2">Search <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+</div>
+<div class="flex flex flex-col sm:flex-row flex-wrao gap-4 justify-center">
+    <button class="px-6 py-2 bg-green-600 hover:bg-lime-800 rounded-lg">
+        <i class="fa-solid fa-circle mr-2"></i>
+        link-05
+    </button>
+    <button class="px-6 py-2 border-2 border-green-400 text-green-600 hover:text-yellow-600 rounded-md"><i class="fa-solid fa-circle mr-2"></i>link-06
+    </button>
+    <button class="px-6 py-2 bg-gradient-to-r from-sky-600 to-pink-600
+    hover:from-purple-700 hoer:to-pink-700 text-white flex items-center gap-2">
+        play now<i class="fa-solid fa-play"></i>
+    </button>
+    <button class="px-6 py-2 bg-blue-600 hover:bg-red-700 text-white rounded-md flex items-center gap-2">More Articles<i class="fa-solid fa-arrow-right"></i>
+    </button>
+</div>
+<div class="flex items-center gap-6">
+    <div class="flex">
+        <button class="px-6 py-2 border border-white text-yellow-600 hover:bg-lime-900 flex items-center gap-2"><i class="fa-solid fa-star text-yellow-600"></i>Starred
+        </button>
+        <button class="px-3 py-2 border border-white text-white hover:bg-gray-700"><i class="fa-solid fa-chevron-down"></i></button>
+    </div>
+    <div class="relative">
+
+        <i class="fa-solid fa-cart-arrow-down text-3xl" style="color: rgb(255, 255, 255);"></i>
+        <span class="absolute -top-2 -right-3 bg-red-500 px-2 py-0.5 rounded-full text-xs">
+            0
+        </span> 
+    </div>
+    <button class="px-6 py-2 bg-white rounded-full">
+        <i class="fa-solid fa-circle mr-2"></i>light
+    </button>
+    <button class="px-6 py-2 border border-white text-white rounded-full"><i class="fa-solid fa-circle mr-2" style="color: rgb(255, 255, 255);"></i>dark</button>
+    </div>
+</div>
+    
+</body>
+</html>
